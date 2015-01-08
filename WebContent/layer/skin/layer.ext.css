@@ -1,0 +1,47 @@
+/** 
+ 
+ @Name: layer拓展样式
+ @Date: 2012.12.13
+ @Author: 贤心
+ @blog: sentsin.com
+ 
+**/
+
+/* prompt模式 */
+.xubox_layer .xubox_form{width:240px; line-height:30px; padding: 0 5px; border: 1px solid #ccc; background: url(default/textbg.png) #fff repeat-x; color:#333;}
+.xubox_layer .xubox_formArea{width:400px; height:100px; line-height:20px;}
+
+/* tab模式 */
+.xubox_layer .xubox_tab{position:relative; border:1px solid #ccc;}
+.xubox_layer .xubox_tabmove{position:absolute; width:600px; height:30px; top:0; left:0;}
+.xubox_layer .xubox_tabtit{ display:block; height:30px; border-bottom:1px solid #ccc; background-color:#eee;}
+.xubox_layer .xubox_tabtit span{position:relative; float:left; width:120px; height:30px; line-height:30px; text-align:center; cursor:pointer;}
+.xubox_layer .xubox_tabtit span.xubox_tabnow{left:-1px; _top:1px; height:31px; border-left:1px solid #ccc; border-right:1px solid #ccc; background-color:#fff; z-index:10;}
+.xubox_layer .xubox_tab_main{line-height:24px; clear:both;}
+.xubox_layer .xubox_tab_main .xubox_tabli{display:none;}
+.xubox_layer .xubox_tab_main .xubox_tabli.xubox_tab_layer{display:block;}
+.xubox_layer .xubox_tabclose{position:absolute; right:10px; top:5px; cursor:pointer;}
+
+
+.xubox_title{width:100%;  height:35px; line-height:35px; border-bottom:1px solid #D5D5D5; background:url(default/xubox_title0.png) #EBEBEB repeat-x; cursor:move; font-size:14px; color:#333;}
+.xubox_title em{display:block; height:20px; line-height:20px; width:80%; top:9px; left:10px; font-style:normal; overflow:hidden;}
+.xubox_close0{ right:10px; top:10px; width:14px; height:14px; background-position: -31px -7px; cursor:pointer; overflow:hidden;}
+.xubox_close0:hover{background-position:-51px -7px;}
+.xubox_close1{ right:-20px; top:-21px; width:34px; height:30px; background-position: -5px -252px; cursor:pointer; overflow:hidden;  _right:3px; _top:3px; _width:14px; _height:14px; _background-position:-31px -7px;}
+.xubox_close1:hover{ background-position:-44px -252px; _background-position:-51px -7px;}
+
+
+.xubox_botton2{background:url(default/xubox_ico0.png) repeat;width:71px; height:29px; line-height:29px; background-position:-5px -114px;display:block;text-align:center;text-decoration:none;font-weight:bold;font-size:14px;color:#fff;float:left;margin-left:24px;}
+.xubox_botton2:hover{ background-position:-5px -146px;text-align:center;text-decoration:none;font-weight:bold;font-size:14px;color:#fff;}
+.xubox_botton3{background:url(default/xubox_ico0.png) repeat;width:71px; height:29px; line-height:29px;background-position:-81px -114px;display:block;text-align:center;text-decoration:none;font-weight:bold;font-size:14px;color:#fff;float:left;margin-left:10px;}
+.xubox_botton3:hover{background-position:-81px -146px;text-align:center;text-decoration:none;font-weight:bold;font-size:14px;color:#fff;}
+
+
+.xubox_tips{position:relative; line-height:20px; padding:3px 30px 3px 10px; font-size:12px; _float:left; border-radius:3px; box-shadow: 1px 1px 3px rgba(0,0,0,.3);}
+.xubox_tips i.layerTipsG{ position:absolute;  width:0; height:0; border-width:8px; border-color:transparent; border-style:dashed; *overflow:hidden;}
+.xubox_tips i.layerTipsT, .xubox_tips i.layerTipsB{left:5px; border-right-style:solid;}
+.xubox_tips i.layerTipsT{bottom:-8px;}
+.xubox_tips i.layerTipsB{top:-8px;}
+.xubox_tips i.layerTipsR, .xubox_tips i.layerTipsL{top:1px; border-bottom-style:solid;}
+.xubox_tips i.layerTipsR{left:-8px;}
+.xubox_tips i.layerTipsL{right:-8px;}

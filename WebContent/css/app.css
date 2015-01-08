@@ -1,0 +1,110 @@
+body {
+	font-family: arial, "Hiragino Sans GB", "Microsoft Yahei", "微软雅黑", "宋体",
+		宋体, Tahoma, Arial, Helvetica, STHeiti;
+	height: 100%;
+	background-color: #EDF2F5;
+	background: url('../_images/bg_qa.png') repeat-x scroll center top
+		transparent;
+}
+
+#top {
+	height: 32px;
+	line-height: 20px;
+	color: #7F7F7F;
+	padding: 7px 10px 5px;
+	/*width: 950px;*/
+	margin: 0 auto;
+	font-size: 16px;
+}
+
+#top .acce {
+	background: url('../_images/bg_icon.png') no-repeat scroll 0px 3px
+		transparent;
+	padding-left: 15px;
+}
+
+#top li {
+	float: left;
+}
+
+#top ul {
+	list-style: none outside none;
+	margin-bottom: 0;
+	padding-left: 0px;
+}
+
+#top li a {
+	padding: 0px 8px;
+	color: #7F7F7F;
+}
+
+.r {
+	float: right;
+}
+
+.btn-primary:focus {
+	background-color: #93AB1D;
+	border-color: #748A10;
+}
+
+.btn-primary {
+	color: #FFF;
+	background-color: #93AB1D;
+	border-color: #B4CA43;
+}
+
+.btn-primary:hover {
+	background-color: rgba(165, 188, 52, 1);;
+	border-color: #B4CA43;
+}
+
+.navbar-default {
+	background: transparent;
+	border: none;
+}
+
+.container-top {
+	padding: 10px 10px;
+	/*width: 950px;*/
+	margin: 0px auto
+}
+
+.container {
+	padding: 10px 10px;
+}
+
+.topul li {
+	float: left;
+	color: #728205;
+	margin: 0px 5px;
+}
+
+.topul {
+	float: left;
+	margin: 15px 0;
+	list-style: none outside none;
+	padding-left: 10px;
+}
+
+.topul .activ a {
+	background: none repeat scroll 0% 0% #A4B624;
+	color: #FFF;
+	display: block;
+	border-radius: 5px;
+}
+
+.topul li a {
+	color: #728205;
+	font-weight: bold;
+	padding: 5px;
+	display: block;
+}
+
+a {
+	color: #404040;
+	text-decoration: none;
+}
+
+.navbar {
+	margin: 10px 0px;
+}

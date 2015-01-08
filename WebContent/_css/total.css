@@ -1,0 +1,42 @@
+*{padding:0;margin:0;}
+html{min-width:950px;}
+input,textarea,select,button,th,td{font-family:Tahoma, Arial, simsun, sans-serif;font-size:12px;color:#404040;vertical-align:middle;}
+img{border:0;}
+ul{list-style:none;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+
+.l{float:left;}
+.r{float:right;}
+.red{color:red;}
+.yellow{color:#dd5e26;}
+.green{color:#04884c;}
+.gray{color:#b4b4b4;}
+.black{color:#444;}
+.font11{font-size:11px;}
+.font14{font-size:14px}
+.font16{font-size:16px;margin-right:8px;}
+.font20{font-size:20px;}
+.clearbox{display:block;margin:0px;clear:both;padding:0px;visibility:hidden;border:0px none #fff;}
+.clearbox:after{height:0px;font-size:0;}
+
+.btn{background:#9f9903;border:none;color:#fff;height:20px;line-height:20px;padding:0 2px;}
+.protext{background:#fff;border:1px solid;border-color:#84868c #c9cfd4 #c9cfd4 #84868c;height:21px;line-height:21px;padding:0 5px;}
+
+/*page*/
+.page{margin:15px auto 25px auto;text-align:center;}
+.page a{border:#c9c9c9 1px solid;padding:2px 6px;margin-right:4px;text-decoration:none;}
+.page a:hover{color:#9f9903;border:#9f9903 1px solid;padding:2px 6px;margin-right:4px;text-decoration:none;}
+.page span.current{background:#9f9903;border:#9f9903 1px solid;padding:2px 6px;color:#fff;margin-right:4px;}
+.page span.disabled{border:#c9c9c9 1px solid;padding:2px 6px;margin-right:4px;color:#c9c9c9;}
+.page input{margin:0 5px;}
+
+/*???*/
+div.pagination {
+	text-align: right;
+	padding: 5px 10px 5px 0;
+}
+
+div.pagination a {
+	margin: 0 2px;
+	color: #00A800;
+}

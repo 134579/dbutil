@@ -1,0 +1,1523 @@
+body{background:#fdfdfd url(http://www.cdpsn.org.cn/_images/bg_home.png) repeat-x top;font:12px/1.5em;font-family:\5FAE\8F6F\96C5\9ED1,Verdana,tahoma,arial;color:#404040;text-align:center;}
+
+a{color:#404040;text-decoration:none;}
+a:hover{color:#00a800;text-decoration:underline;}
+
+div#skip {height: 0;line-height: 0; font-size: 0;}
+div#skiptomain {font-size: 0;height: 0;line-height: 0;}
+
+#wrapper{width:950px;text-align:left;margin:0 auto;}
+
+#top{height:20px;line-height:20px;color:#7f7f7f;padding:7px 0 5px 0;}
+#top li{float:left;}
+#top li a{padding:0 8px;color:#7f7f7f;}
+#top .acce{background:url(http://www.cdpsn.org.cn/_images/bg_icon.png) no-repeat 0 3px;padding-left:15px}
+#top .listen{background:url(http://www.cdpsn.org.cn/_images/bg_icon.png) no-repeat 0 -28px;padding-left:12px}
+
+#head{height:100px;background:url(../_images/head.jpg) right no-repeat;margin:2px 0 0 0;}
+#head #logo{float:left;background:url(../_images/logo.png) no-repeat;width:338px;height:60px;margin:25px 0 0 0;}
+#head #logo2{float:right;background:url(http://www.cdpsn.org.cn/_images/temporary/cw2012_logo.gif) no-repeat;width:356px;height:75px;}
+#head #logo2 h1 a{display:block;width:356px;height:75px;text-indent:-99999px;}
+#head #logo h1 a{display:block;width:230px;height:52px;text-indent:-99999px;}
+
+#head #menu{clear:both;background:url(http://www.cdpsn.org.cn/_images/allbgs.jpg) no-repeat;height:59px;position:relative;}
+#head #menu ul{padding-left:7px;}
+#head #menu ul li{float:left;width:104px;height:40px;line-height:40px;text-align:center;font-family:Microsoft Yahei,微软雅黑,黑体;font-size:14px;font-weight:bold;}
+#head #menu ul li a{color:#fff;}
+#head #menu ul li a:hover{background:url(http://www.cdpsn.org.cn/_images/allbgs.jpg) no-repeat 0 -390px;display:block;color:#413f02;text-decoration:none;}
+#head #menu ul li.select a{background:url(http://www.cdpsn.org.cn/_images/allbgs.jpg) no-repeat 0 -390px;display:block;color:#413f02;text-decoration:none;}
+#head #menu .bbs{background:url(http://www.cdpsn.org.cn/_images/icon_bbs.png) no-repeat;width:37px;height:22px;position:absolute;top:-23px;right:30px;}
+#head #menu .bbs2{background:url(http://www.cdpsn.org.cn/_images/temporary/icon_bbs2.png) no-repeat;width:37px;height:22px;position:absolute;top:-12px;right:10px;}
+#head #menu #menu_9 a{color:#ff0;}
+#head #menu #menu_9 a:hover{color:#413f02;}
+
+#head #qa a{background:url(http://www.cdpsn.org.cn/_images/allbgs.jpg) no-repeat 0 -59px;height:79px;display:block;}
+#head #qa .inputbox{background:url(http://www.cdpsn.org.cn/_images/allbgs.jpg) no-repeat 0 -340px;width:464px;height:31px;overflow:hidden;}
+#head #qa .inputbox .ipt{width:334px;background:none;padding:0 5px;margin:0 0 0 35px;height:29px;line-height:29px;vertical-align:middle;border:none;color:#ccc;}
+#head #qa input{vertical-align:bottom;}
+#head #qa p{color:#6c6902;padding:2px 0;}
+#head #qa a{color:#fff;padding:0 6px;}
+#head #qa a.lemon{color:#fff04b;}
+
+#head .inputarea{background:url(http://www.cdpsn.org.cn/_images/newinput.gif) no-repeat 0 0;height:34px;padding:0 0 0 30px;}
+#head .ipubox{background:none;width:330px;border:none;height:30px;line-height:30px;color:#ccc;}
+#head .searchbnt-1{background:url(http://www.cdpsn.org.cn/_images/newinput.gif) no-repeat 0 -36px;width:80px;height:34px;border:none;cursor:pointer;text-indent:-3000px;}
+#head .searchbnt-2{background:url(http://www.cdpsn.org.cn/_images/newinput.gif) no-repeat -81px -36px;width:82px;height:34px;border:none;cursor:pointer;margin:0 0 0 3px;text-indent:-3000px;} 
+
+#adbanner{float:left;width:640px;height:300px;overflow:hidden;margin:25px 0 0 0;}
+
+#loginbox{float:right;background:url(http://www.cdpsn.org.cn/_images/allbgs.jpg) no-repeat 0 -450px;width:300px;height:42px;margin:25px 0 0 0;}
+#loginbox h3,#loginbox h4{float:left;text-indent:-99999px;}
+#loginbox h3 a,#loginbox h4 a{height:40px;display:block}
+#loginbox h3 a{width:170px;}
+#loginbox h4 a{width:130px;}
+
+#logoutbox{float:right;background:url(http://www.cdpsn.org.cn/_images/allbgs.jpg) no-repeat -350px -450px;width:300px;height:42px;margin:25px 0 0 0;}
+#logoutbox h3,#logoutbox h4{float:left;text-indent:-99999px;}
+#logoutbox h3 a,#logoutbox h4 a{height:40px;display:block}
+#logoutbox h3 a{width:170px;}
+#logoutbox h4 a{width:130px;}
+
+#notice{float:right;width:300px;background:#fff;margin-top:10px;}
+.title_notice{background:url(http://www.cdpsn.org.cn/_images/allbgs.jpg) no-repeat 0 -640px;height:32px;}
+.title_notice li{float:left;overflow:hidden;font-weight:bold;width:80px;height:32px;line-height:34px;text-align:center;}
+.title_notice a{color:#808080;}
+.menuOff {}
+.menuOn{background:url(http://www.cdpsn.org.cn/_images/allbgs.jpg) no-repeat -350px -640px;height:32px;}
+.menuOn a{color:#323232;}
+.slidingList_none {display:none;}
+.cont_notice{border:1px solid #dedede;border-top:none;height:130px;overflow:hidden;}
+.cont_notice ul{padding:5px 10px;}
+.cont_notice li{clear:both;background:url(http://www.cdpsn.org.cn/_images/bg_icon.png) no-repeat 0 -55px;padding:3px 0 1px 8px;border-bottom:1px dashed #eaeaea;width:270px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cont_notice li.hot a{color:#968f1b;}
+
+.haidi{float:right;width:300px;height:75px;overflow:hidden;margin-top:10px;}
+
+#news{clear:both;padding:10px 0 0 0;}
+.news_focus,.news_society{width:315px;float:left;}
+.news_CDPF{width:300px;float:right;}
+.news_focus{margin-right:10px;}
+.news_focus .title,.news_society .title{background:url(http://www.cdpsn.org.cn/_images/allbgs.jpg) no-repeat 0 -510px;padding:5px 12px 3px 60px;font-weight:bold;color:#a5a237;letter-spacing:0.1em;}
+.news_CDPF .title{background:url(http://www.cdpsn.org.cn/_images/allbgs.jpg) no-repeat -350px -510px;padding:5px 12px 3px 60px;font-weight:bold;color:#a5a237;letter-spacing:0.1em;}
+.first{font-size:14px;color:#933100;}
+.news_focus .title .r a,.news_society .title .r a,.news_CDPF .title .r a{font-weight:normal;color:#b3b3b3;}
+.news_cont1{background:url(http://www.cdpsn.org.cn/_images/allbgs.jpg) no-repeat 0 -546px;}
+.news_cont2{background:url(http://www.cdpsn.org.cn/_images/allbgs.jpg) no-repeat -350px -546px;}
+.news_cont1,.news_cont2{padding:5px 10px 10px 10px;overflow:hidden;}
+.news_cont1 li,.news_cont2 li{clear:both;background:url(http://www.cdpsn.org.cn/_images/bg_icon.png) no-repeat 0 -55px;padding:3px 0 1px 8px;width:270px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.news_cont1 li.hot a,.news_cont2 li.hot a{color:#968f1b;}
+
+.contbox{clear:both;background:url(http://www.cdpsn.org.cn/_images/bg_contsub.png) repeat-x top;border:1px solid #dfdfdf;border-top:none;margin-top:18px;padding:1px 14px 30px 14px;overflow:hidden}
+.contx{width:920px;}
+.contbox .title_love{background:url(http://www.cdpsn.org.cn/_images/bg_contitles.jpg) no-repeat 0 0;color:#8E2C00;padding:0 0 0 200px;height:60px;line-height:60px;}
+.contbox .title_qa{background:url(http://www.cdpsn.org.cn/_images/bg_contitles.jpg) no-repeat 0 -70px;color:#3E3D03;padding:0 0 0 200px;height:60px;line-height:60px;}
+.contbox .title_library{background:url(http://www.cdpsn.org.cn/_images/bg_contitles.jpg) no-repeat 0 -140px;color:#C87920;padding:0 0 0 350px;height:60px;line-height:60px;}
+.contbox .title_job{background:url(http://www.cdpsn.org.cn/_images/bg_contitles.jpg) no-repeat 0 -210px;color:#F48A03;padding:12px 0 12px 200px;}
+.contbox .title_education{background:url(http://www.cdpsn.org.cn/_images/bg_contitles.jpg) no-repeat 0 -280px;color:20704d;padding:12px 0 12px 200px;}
+.contbox .title_ware{background:url(http://www.cdpsn.org.cn/_images/bg_contitles.jpg) no-repeat 0 -350px;color:#1e9ea9;padding:12px 0 12px 200px;}
+.contbox .title_partner{background:url(http://www.cdpsn.org.cn/_images/bg_contitles.jpg) no-repeat 0 -420px;height:60px;}
+.contbox .title_links{background:url(http://www.cdpsn.org.cn/_images/bg_contitles.jpg) no-repeat 0 -490px;height:60px;}
+.contbox .titlelink a{position:absolute;width:600px;height:60px;display:block; z-index:100;text-indent:-9999px;}
+
+.title_love,.title_qa,.title_library,.title_job,.title_education,.title_ware,.title_partner,.title_hy{font-size:14px;font-weight:bold;margin-bottom:20px;}
+.title_love .r a,.title_qa .r a,.title_library .r a,.title_job .r a,.title_education .r a,.title_ware .r a,.title_partner .r a{font-weight:normal;color:#b4b4b4;}
+.title_library .r a,.title_job .r a,.title_education .r a,.title_ware .r a,.title_partner .r a{font-weight:normal;color:#b4b4b4;height:42px;line-height:42px;}
+.title_library .r{padding-top:14px;}
+.st{font-size:12px;font-weight:normal;color:#404040;}
+
+.juanzhu{width:300px;float:left;margin-right:12px;}
+.juanzhu_title{border-bottom:3px solid #cecece;padding:5px 0 3px 0;}
+.juanzhu_title .text{font-size:14px;font-weight:bold;color:#8D2D00;padding:5px 5px 3px 5px;border-bottom:3px solid #8D2D00;}
+.juanzhu ul{padding:8px 0 0 0;}
+.juanzhu ul li{background:url(http://www.cdpsn.org.cn/_images/bg_icon.png) no-repeat 6px -55px;padding:3px 0 1px 14px;border-bottom:1px dashed #eaeaea;width:285px!important;width:300px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.juanzhu ul li.hot a{color:#e93900;}
+
+.jzgroup{width:316px;float:left;padding:10px 0 0 0;}
+.jzgroup center img{margin:0 3px;}
+.jzgroup ul{margin:8px 0 0 0;}
+.jzgroup ul li{float:left;background:url(http://www.cdpsn.org.cn/_images/allbgs.jpg) no-repeat 0 -740px;width:97px;text-align:center;padding:3px 0 4px 0;margin:2px 4px;font-size:13px;font-family:Microsoft Yahei,微软雅黑,黑体;display:inline;}
+.jzgroup ul li a{color:#963200;display:block;}
+
+.jzinfo{width:280px;float:right;}
+.info_title{background:url(http://www.cdpsn.org.cn/_images/allbgs.jpg) no-repeat 0 -700px;height:34px;line-height:34px;padding:0 0 0 40px;font-size:14px;font-weight:bold;margin-bottom:6px;}
+.jzinfo p{line-height:1.8em;padding-left:5px;}
+.jzinfo p span{color:#e83900;}
+.jzinfo ul{padding:5px 5px 0 5px;}
+.jzinfo ul li{background:url(http://www.cdpsn.org.cn/_images/bg_icon.png) no-repeat 0 -55px;padding:3px 0 1px 8px;color:#93901b;width:270px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.jzinfo ul li a{padding-left:5px;}
+
+.top10,.top11{width:285px;float:left;margin-right:30px;}
+.top10_title,.topic_title,.expert_title{border-bottom:3px solid #cecece;padding:0 0 3px 0;}
+.top10_title .text,.topic_title .text,.expert_title .text{font-size:14px;font-weight:bold;color:#484404;padding:5px 5px 3px 5px;border-bottom:3px solid #a6a236;}
+.top10_title .r a,.topic_title .r a,.expert_title .r a,.juanzhu_title .r a{color:#b4b4b4;padding-right:5px;}
+.top10 ul,.top11 ul{
+	padding-top: 17px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.top10 ul li{background:url(http://www.cdpsn.org.cn/_images/bg_icon.png) no-repeat 6px -55px;padding:3px 0 1px 14px;border-bottom:1px dashed #eaeaea;width:265px!important;width:285px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.top11 ul li{background:url(http://www.cdpsn.org.cn/_images/bg_icon.png) no-repeat 6px -55px;padding:3px 0 1px 14px;border-bottom:1px dashed #eaeaea;width:194px!important;width:204px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.top10 ul li.hot a,.top11 ul li.hot a{color:#95901b;}
+.topic{width:285px;float:left;}
+.topic ul{padding:3px 0 0 0;}
+.topic ul li{border-bottom:1px dashed #eaeaea;padding:2px 0 10px 0;}
+.topic ul li h5{background:url(http://www.cdpsn.org.cn/_images/bg_icon.png) no-repeat 6px -52px;padding:5px 0 5px 14px;}
+.topic ul li h5 a{color:#95901b}
+.topic p{padding:0 0 4px 15px;color:#808080;}
+.topic .info{padding:0 0 0 15px;color:#ccc;}
+.topic .info a{color:#01a6c2;}
+.expert{width:285px;float:right;}
+.expert_list{
+	clear:both;
+	padding-top:5px;
+	padding-bottom: 0px;
+}
+.expert_pic{float:left;width:100px;height:100px;overflow:hidden;border:1px solid #ebebeb;}
+.expert_pic img{width:100px;}
+.expert_info{float:left;width:173px;margin-left:10px;display:inline;}
+.expert_info strong a{font-size:14px;color:#95901b;}
+.expert_info p{padding-top:6px;word-break:break-all;}
+.expert_info a{width:160px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+
+.library_cont{width:225px!important;width:230px;float:left;}
+.library_cont .sub1{background:url(http://www.cdpsn.org.cn/_images/allbgs.jpg) no-repeat -740px -340px;}
+.library_cont .sub2{background:url(http://www.cdpsn.org.cn/_images/allbgs.jpg) no-repeat -740px -410px;}
+.library_cont .sub3{background:url(http://www.cdpsn.org.cn/_images/allbgs.jpg) no-repeat -740px -480px;}
+.library_cont .sub4{background:url(http://www.cdpsn.org.cn/_images/allbgs.jpg) no-repeat -740px -550px;}
+.sub1,.sub2,.sub3,.sub4{height:50px;}
+.sub1 a,.sub2 a,.sub3 a,.sub4 a{display:block;width:200px;height:50px;text-indent:-9999px;}
+.library_cont ul{padding:0 8px;}
+.library_cont ul li{background:url(http://www.cdpsn.org.cn/_images/bg_icon.png) no-repeat 6px -55px;padding:3px 0 1px 14px;border-bottom:1px dashed #eaeaea;width:195px!important;width:210px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.library_cont ul li.hot a{color:#cb7b22;}
+.dr{border-right:1px dashed #eaeaea;}
+
+.job_list{width:360px;float:left;}
+.job_title{background:url(http://www.cdpsn.org.cn/_images/allbgs.jpg) no-repeat -560px -740px;height:28px;}
+.job_list ul{padding:5px 0 0 0;}
+.job_list ul li{background:url(http://www.cdpsn.org.cn/_images/bg_icon.png) no-repeat 6px -55px;padding:3px 0 1px 14px;border-bottom:1px dashed #eaeaea;color:#b3b3b3;width:335px!important;width:350px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.job_list ul li.hot a,.fuzhu ul li.hot a{color:#2675b7;}
+.job_list ul li .post{width:130px;display:block;float:left;}
+.fuzhu{width:550px;float:right;}
+.fuzhu_title{background:url(http://www.cdpsn.org.cn/_images/allbgs.jpg) no-repeat -350px -700px;height:28px;line-height:28px;padding:0 15px 0 40px;font-size:14px;font-weight:bold;}
+.fuzhu_title .r a{font-size:12px;font-weight:normal;font-family:宋体;}
+.fuzhu ul li{width:122px;float:left;margin:10px 0 0 13px;display:inline;}
+.fuzhu ul li .xmpic{width:120px;height:85px;overflow:hidden;border:1px solid #ebebeb;text-align:center;}
+.fuzhu ul li .xmpic img{height:85px;margin:0 auto;}
+.fuzhu ul li p{background:#ebebeb;border:1px solid #ebebeb;width:120px;height:22px;line-height:22px;text-align:center;}
+.fuzhu ul li p a{color:#206ead;}
+
+.title_education{position:relative;}
+.education_cont{width:305px;float:left;}
+.education_cont p a{color:#24724b;font-weight:bold;}
+.class_pic{float:left;width:100px;height:75px;overflow:hidden;border:1px solid #ebebeb;margin-right:5px;display:inline;}
+.class_pic img{width:100px;}
+.education_cont p{line-height:1.6em;}
+.jiaoyu{position:absolute;top:0!important;top:-1px;right:-14px!important;right:0;}
+
+.warelist{width:920px;clear:both;}
+.warelist ul{padding:10px 8px 0 8px;}
+.warelist ul li{float:left;width:150px;text-align:center;}
+.warelist ul li .pic{width:130px;height:130px;overflow:hidden;border:1px solid #ebebeb;margin:0 auto;}
+.warelist ul li img{height:130px;}
+.warelist ul li p{background:#dedede;width:130px;line-height:24px;border:1px solid #dedede;text-align:center;font-weight:bold;margin:0 auto;}
+.warelist ul li p a{color:#1d9daa;}
+
+.qlinkList{margin-top:8px;}
+.qlinkList ul li{float:left;margin:10px 12px 0 0;}
+.gongj{background:url(http://www.cdpsn.org.cn/_images/qlink8.png) no-repeat;width:346px!important;height:69px!important;width:566px;height:75px;padding:6px 0 0 220px;line-height:1.8em;}
+.gongj a{float:left;width:110px;font-size:14px;}
+
+.partnerTab{background:#dedede;}
+.partnerTab th{width:30px;background:#b3b3b3;text-align:center;font-size:14px;color:#fff;padding:10px;}
+.partnerTab td{background:#f5f5f5;padding:5px;}
+.partnerTab td img{border:1px solid #ebebeb;margin:5px;}
+
+.linksTab{background:#dedede;margin-top:15px;}
+.linksTab td{background:#f5f5f5;padding:5px;}
+.linksTab select {width:142px;height:21px;}
+
+#footer{margin-top:22px;clear:both;}
+#footer .fmenu{background:url(http://www.cdpsn.org.cn/_images/allbgs.jpg) no-repeat 0 -150px;height:30px;line-height:30px;text-align:center;color:#fff;}
+#footer .fmenu a{color:#fff;padding:0 30px;}
+#footer .copyright{text-align:center;color:#000000;line-height:1.6em;padding:10px 0 30px 0;}
+#footer .copyright a{color:#404040;}
+
+
+/**/
+.body2{background:url(../_images/bg_qa.png) repeat-x top;}
+#testlogo{float:left;background:url(http://www.cdpsn.org.cn/_images/nylogo.png) no-repeat 0 -215px;}
+#qalogo{float:left;background:url(http://www.cdpsn.org.cn/_images/nylogo.png) no-repeat 0 15px;}
+#newslogo{float:left;background:url(http://www.cdpsn.org.cn/_images/nylogo.png) no-repeat 0 -32px;}
+#lovelogo{float:left;background:url(http://www.cdpsn.org.cn/_images/nylogo.png) no-repeat 0 -77px;}
+#joblogo{float:left;background:url(http://www.cdpsn.org.cn/_images/nylogo.png) no-repeat 0 -122px;}
+#warelogo{float:left;background:url(http://www.cdpsn.org.cn/_images/nylogo.png) no-repeat 0 -170px;}
+#testlogo,#qalogo,#newslogo,#lovelogo,#joblogo,#warelogo{width:118px;height:52px;margin:12px 0 12px 20px;text-indent:-99999px;}
+#location{height:28px;line-height:28px;margin-top:5px;font-family:宋体;color:#808080;}
+#location a{color:#808080;}
+
+
+/*Q&A*/
+#qasearch{background:url(http://www.cdpsn.org.cn/_images/bgtopqa.png) no-repeat 70px 30px;width:950px;height:240px;}
+#search_box{background:url(http://www.cdpsn.org.cn/_images/qicon.png) no-repeat 280px 0;margin:0 0 0 300px;padding:75px 0 0 0;}
+#search_box .search_input,#search_box2 .search_input{background:#fff;width:470px;height:50px;line-height:50px;border:1px solid #d9e2e1;padding:0 5px;margin-right:6px;font-size:14px;}
+#search_box2{margin:0 0 0 300px;padding:75px 0 0 0;}
+#ask_box{margin:0 0 0 300px;padding:3px 0 0 0;}
+#ask_box .ask_cont{background:#f7fae7;float:left;width:470px;height:27px;line-height:27px;border:1px solid #e3e9bd;margin-right:3px;display:inline;position:relative;z-index:998;}
+.ask_cont input{vertical-align:bottom;}
+.ask_cont ul li{float:left;background:url(http://www.cdpsn.org.cn/_images/bg_icon.png) no-repeat 0 -109px;width:37px!important;width:45px;padding:0 0 0 8px;margin-left:10px;}
+.ask_cont ul li a{display:block;}
+.ask_cont .onover{cursor:hand;cursor:pointer;}
+.ask_cont .out .ware_sub{display:none;}
+.ask_cont .onover .ware_sub{display:block;position:absolute;top:26px;right:0;width:75px;background:#fff;border:1px solid #e3e9bd;z-index:10;}
+.ask_cont .onover .ware_sub a{color:#404040;border-bottom:1px solid #e3e9bd;display:block;padding:0 10px;}
+.ask_cont .onover .ware_sub a:hover{background:#f7fae7;color:#00a800;}
+
+
+.huati{width:680px;border:1px solid #eee;}
+.huati .huati_title{background:#f2f2f2;line-height:33px;line-height:33px;padding:0 12px;font-size:14px;font-weight:bold;}
+.huati .huati_title .r a{font-size:12px;font-weight:normal;color:#808080;}
+.huati .huati_cont{clear:both;margin:15px 10px;border-bottom:1px dashed #e9e9e9;padding:0 0 15px 0;}
+.huati .face_img{width:50px;height:50px;overflow:hidden;border:1px solid #ebebeb;text-align:center;}
+.huati .face_img img{height:50px;margin:0 auto;}
+.huati .huati_info{width:600px;}
+.huati .huati_info h3{color:#115a99;}
+.huati .huati_info h3 a{color:#115a99;font-weight:bold;}
+.huati .huati_info h2{color:#115a99;font-weight:bold;}
+.huati .huati_info h2 a{font-size:18px;font-family:Microsoft Yahei,微软雅黑,黑体;line-height:1.7em;}
+.huati .huati_info .detail{color:#808080;line-height:1.7em;padding:5px 0 0 0;}
+.huati .huati_info .txt{color:#ccc;}
+.huati .huati_info .txt a{color:#00a6c4;}
+.huati .huati_info .date{font-size:11px;}
+.huati .read_box{background:#f7fafc url(http://www.cdpsn.org.cn/_images/bg_icon.png) no-repeat 10px -148px;border:1px solid #ebf1f5;height:30px;line-height:30px;margin:10px 0 0 0;padding-left:35px;}
+.huati .read_box span{color:#fa7c01;}
+/* reply_box */
+.reply_box{position:relative;width:600px;border-top:1px solid #fff;}
+.arrow{position:absolute;width:16px;height:16px;background:url(http://www.cdpsn.org.cn/_images/bg_arrow.png) no-repeat bottom;top:0;left:20px;}
+.reply_cont{background:#f7fafc;border:1px solid #ebf1f5;padding:8px 6px;margin-top:15px;}
+.reply_img{width:20px;height:20px;overflow:hidden;border:1px solid #ebebeb;text-align:center;}
+.reply_img img{height:20px;margin:0 auto;}
+.reply_cont .reply_detail{width:560px;color:#808080;line-height:1.7em;}
+.reply_cont .reply_detail a.zj{color:#00a6c4}
+.more{padding:0 15px 15px 0;}
+.more a{font-family:宋体;color:#fe6000;}
+
+.qaright{width:268px;float:right;}
+.qa_top10{width:263px;position:relative;border:1px solid #e1e1e1;border-top:none;}
+.qa_top10_title{background:url(http://www.cdpsn.org.cn/_images/allbgs_qa.jpg) no-repeat 0 0;width:218px!important;width:268px;height:48px;line-height:48px;font-size:14px;font-weight:bold;padding:0 10px 0 40px;position:absolute;top:-3px;right:-1px;}
+.qa_top10_title .r a,.rightbox_title .r a{font-size:12px;font-weight:normal;color:#808080;}
+.qatop10_list{margin-top:50px;padding:0 8px 10px 10px;}
+.rightbox_list ul{padding:0 0 10px 0;}
+.qatop10_list ul li,.rightbox_list ul li{clear:both;background:url(http://www.cdpsn.org.cn/_images/bg_icon.png) no-repeat 0 -55px;padding:3px 0 1px 8px;color:#115a99;width:235px!important;width:245px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+.rightbox{width:265px;}
+.mt{margin:20px 0 0 0;}
+.rightbox_title{background:url(http://www.cdpsn.org.cn/_images/allbgs_qa.jpg) no-repeat 0 -80px;height:40px;line-height:40px;font-size:14px;font-weight:bold;padding:0 10px;}
+.rightbox_cont{border:1px solid #e1e1e1;border-top:none;padding:0 8px 0 10px;}
+.rightbox_cont .expert_list{height:138px;padding:0;}
+.rightbox_cont .expert_box{width:102px;text-align:center;float:left;}
+.rightbox_cont .expert_box strong a{font-size:14px;color:#94901d;line-height:2.0em;}
+.rightbox_cont .expert_pic{width:100px;height:100px;overflow:hidden;border:1px solid #ebebeb;}
+.rightbox_cont .expert_info{width:130px;}
+.rightbox_cont .expert_info p{padding:0;}
+
+.hot_tag{width:245px!important;width:265px;padding:0 8px 8px 10px;}
+.hot_tag ul li{float:left;padding-right:12px;font-size:14px;height:2.0em;line-height:2.0em;white-space: nowrap;font-family:Microsoft Yahei,微软雅黑,黑体;}
+.hot_tag ul li a:hover{text-decoration:none;}
+.tag1{color:#135a98;font-size:22px;}
+.tag2{color:#e38c04;font-size:16px;}
+.tag3{color:#934792;font-size:12px;}
+.tag4{color:#6a9b32;font-size:18px;}
+.tag5{color:#974597;}
+.tag6{color:#c00;font-size:13px;}
+
+.reply_view{clear:both;margin:15px 10px;}
+.reply_view .reply_face{width:50px;height:50px;overflow:hidden;border:1px solid #d2d2d2;text-align:center;}
+.reply_view .reply_face img{height:50px;margin:0 auto;}
+.reply_view .reply_full{width:600px;}
+.reply_view .reply_full p{line-height:1.8em;margin-bottom:8px;}
+.reply_view .reply_full a.zj{color:#00a6c4}
+.reply_view .reply_full .date{font-size:11px;color:#ccc;}
+.reply_view .reply_full .up_box{background:#f7fafc;border:1px solid #ebf1f5;padding:6px 10px;margin-top:15px;height:20px;line-height:20px;}
+.reply_view .reply_full .up_box ul li{float:left;margin-right:30px;padding:0 0 0 20px;}
+.reply_view .reply_full .up_box ul li a{border:none;}
+.up{background:url(http://www.cdpsn.org.cn/_images/bg_icon.png) no-repeat 5px -188px;}
+.down{background:url(http://www.cdpsn.org.cn/_images/bg_icon.png) no-repeat 5px -213px;}
+.report{background:url(http://www.cdpsn.org.cn/_images/bg_icon.png) no-repeat 5px -241px;}
+
+
+.ask_tab{margin:10px;}
+.ask_tab th{text-align:right;font-weight:normal;}
+.ask_tab td{color:#b2b2b2;}
+.ask_tab td textarea{padding:5px;margin-right:5px;}
+.ask_tab td input{vertical-align:middle;}
+.ask_tab td .text_input1,.ask_tab td .text_input2{height:26px;padding:5px 5px 3px 5px;margin-right:5px;}
+.ask_tab td .text_input1{width:470px;}
+.ask_tab td .text_input2{width:240px;}
+
+.expertlist{width:950px!important;width:948px;border:1px solid #eee;}
+.expertlist .expertlist_title{background:#f2f2f2;line-height:33px;line-height:33px;padding:0 12px;font-size:14px;font-weight:bold;}
+.expertlist .expertlist_cont{padding:0 0 20px 0;}
+.expertlist .expertlist_cont ul li{width:31%!important;width:33%;float:left;padding:5px 0 0 15px;display:inline;}
+
+.group_box{background:#f7fafc;border:1px solid #ebf1f5;padding:5px 10px;height:20px;line-height:20px;margin:10px 10px 0 10px;}
+.group_box a{color:#115a99;margin-right:30px;}
+.answered{border-bottom:1px dashed #e9e9e9;margin:0 10px;padding:15px 0;}
+.answered h5{background:url(http://www.cdpsn.org.cn/_images/bg_icon.png) no-repeat 0 -275px;font-size:14px;color:#115a99;padding:0 0 10px 12px;}
+.answered h5 a{font-weight:bold;color:#115a99;}
+.answered h5 .date,.read .date{color:#ccc;font-size:11px;}
+.answered p{color:#808080;line-height:1.7em;padding:0 0 3px 12px;}
+.answered p a.zj{color:#00a6c4;}
+.answered p a.more{font-family:宋体;color:#fe6000;padding-left:10px;}
+.answered .read{color:#115a99;padding-left:12px;}
+.answered .read .num{color:#fa7c01;}
+
+.profile{padding:0 15px 10px 15px;text-align:center;}
+.profile .photo{width:150px;height:150px;overflow:hidden;border:1px solid #ebebeb;text-align:center;margin:0 auto}
+.profile .photo img{height:150px;margin:0 auto;}
+.profile strong a{font-size:14px;line-height:2.0em;color:#94901d;}
+.profile .ansinfo{background:#f0f0f0;padding:15px 0;margin:5px 0 15px 0;}
+.profile .ansinfo ul li{float:left;width:77px;border-right:1px solid #c9c9c9;font-size:13px;color:#808080;line-height:2.0em;}
+.profile .ansinfo ul li .em1{background:url(http://www.cdpsn.org.cn/_images/bg_icon.png) no-repeat 0 -187px;width:15px;height:20px;}
+.profile .ansinfo ul li .em2{background:url(http://www.cdpsn.org.cn/_images/bg_icon.png) no-repeat 0 -213px;width:15px;height:20px;}
+.profile .resume{clear:both;}
+.profile .resume p{text-indent:2.0em;text-align:left;line-height:1.8em;padding-bottom:5px;}
+
+
+
+/*NEWS*/
+.newslist{width:630px;margin-top:5px;padding:0 0 20px 0;border:1px solid #c8c8c8;}
+.newslist_title,.joblist_title{background:url(http://www.cdpsn.org.cn/_images/allbgs_ny.jpg) no-repeat -100px 0;padding:0 10px;}
+.hts{height:27px;line-height:27px;font-size:14px;font-weight:bold;}
+.newslist_cont{padding:10px 15px 30px 15px;}
+.newslist_cont ul li{clear:both;background:url(http://www.cdpsn.org.cn/_images/bg_icon.png) no-repeat 0 -52px;padding:6px 0 4px 8px;font-size:14px;}
+.newslist_cont ul li.line{clear:both;border-bottom:1px dotted #ccc;padding-bottom:20px;}
+.newslist_cont .date{font-size:11px;color:#b4b4b4;}
+.newslist .news_view{padding:20px;}
+.news_view h2{font-size:24px;color:#a02d01;line-height:1.8em;text-align:center;font-family:Microsoft Yahei,微软雅黑,黑体;}
+.news_view h5{color:#999;text-align:center;margin:5px 0 20px 0;}
+.news_view p{font-size:14px;line-height:1.8em;text-indent:2.4em;padding:6px 0;}
+.news_view center{color:#808080;font-size:14px;font-family:仿宋_GB2312;line-height:1.8em;}
+.news_view p.center{text-align: center;}
+
+.nyright{width:297px;margin-top:5px;}
+.picstory{border:1px solid #c8c8c8;}
+.picstory_title{background:url(http://www.cdpsn.org.cn/_images/allbgs_ny.jpg) no-repeat 0 0;padding:0 10px 0 60px;}
+.picstory_title .r a,.qatop10_title .r a,.video_title .r a,.newscont_title .r a,.service_qatop_title .r a,.joblist_title .r a,.cyfz_title .r a,.cyfzlist_title .r a{font-size:12px;font-weight:normal;color:#808080;}
+.picstory ul{padding:5px 10px;}
+.picstory ul li{clear:both;border-bottom:1px dotted #ccc;padding:10px 0;}
+.picstory ul li h4{font-weight:bold;margin-bottom:6px;}
+.picstory_img{width:100px;height:100px;overflow:hidden;border:1px solid #ebebeb;margin-right:10px;}
+.picstory_img img{height:100px;}
+.picstory ul li .more,.topnews p .more,.lovenews p .more{color:#fe6000;font-family:宋体;}
+
+.nyright .product{border:1px solid #c8c8c8;margin-top:20px;}
+.nyright .product_title{background:url(http://www.cdpsn.org.cn/_images/allbgs_ny.jpg) no-repeat -60px 0px;padding:0 10px 0 10px;}
+.nyright .product ul {padding: 5px 2px 2px;height:320px;}
+.nyright .product ul li{width:152px;height:160px;float:left;text-align:center;}
+.nyright .product ul li.title{line-height: 24px;}
+.nyright .product ul li img{width:140px;height:140px;}
+.nyright .product .more{background:#E6E6E6;line-height:24px;border-top: 1px solid #a9d5a2;font-size: 116.67%;font-weight: bold;text-align: center;}
+
+.nyright .fgepic{background:url(http://www.cdpsn.org.cn/_images/allbgs_ny.jpg) no-repeat -640px -470px;width:310px;height:140px;margin-top:20px;}
+.nyright .fgepic ul li{width:152px;height:70px;float:left;}
+.nyright .fgepic ul li a{width:152px;height:70px;display:block;text-indent:-99999px;}
+.nyright .fgepic .service_pic{background:url(http://www.cdpsn.org.cn/_images/allbgs_ny.jpg) no-repeat -160px -540px;width:150px;height:68px;border:none;}
+
+.newsleft{width:670px;margin-top:5px;}
+.newsright{width:265px;margin-top:5px;}
+
+.topnews{background:url(http://www.cdpsn.org.cn/_images/bg_newslist.png) no-repeat;height:250px;}
+.topnews .newspic{width:305px;height:215px;overflow:hidden;margin:17px 17px 0 15px;display:inline;}
+.topnews .newspic img{height:215px;}
+
+.topnews_list{width:315px;}
+.topnews_list h3{font-size:16px;font-family:Microsoft Yahei,微软雅黑,黑体;font-weight:bold;padding:15px 0 10px 0;}
+.topnews_list p{text-indent:2.4em;line-height:1.6em;}
+.topnews_list ul{padding:8px 0 0 0;margin-top:10px;border-top:1px dashed #e7e7e7;}
+.topnews_list ul li{background:url(http://www.cdpsn.org.cn/_images/icon_ny.png) no-repeat 0 -150px;padding:3px 0 2px 12px;width:295px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+.newsleft_cont{width:240px;border:1px solid #eee;margin-top:20px;}
+.qatop10_title{background:url(http://www.cdpsn.org.cn/_images/icon_ny.png) no-repeat 0 -80px;border-bottom:1px dashed #e7e7e7;margin:8px 5px 1px 5px;padding:0 0 8px 8px;font-size:14px;font-weight:bold;}
+.qatop10_cont{border-top:1px dashed #e7e7e7;margin:1px 5px 5px 5px;padding:8px 0;}
+.qatop10_cont ul{padding:0 0 0 3px;}
+.qatop10_cont ul li{clear:both;background:url(http://www.cdpsn.org.cn/_images/bg_icon.png) no-repeat 0 -55px;padding:2px 0 2px 8px;width:220px;color:#a59e34;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.qatop10_cont ul li a{padding-left:3px;}
+
+.adhaidi{width:240px;height:75px;overflow:hidden;}
+
+.video_title{background:url(http://www.cdpsn.org.cn/_images/icon_ny.png) no-repeat 0 -119px;border-bottom:1px dashed #e7e7e7;margin:12px 5px 1px 5px;padding:0 0 8px 26px;font-size:14px;font-weight:bold;}
+.video_cont{border-top:1px dashed #e7e7e7;margin:1px 5px 0 5px;padding:10px 0 0 0;}
+.video_cont ul li{clear:both;padding-bottom:16px;}
+.video_cont .videoimg{width:100px;overflow:hidden;border:1px solid #ebebeb;margin-right:8px;}
+.video_cont .videoimg img{height:75px;}
+.video_cont .videoimg p{background:#bab825;border:1px solid #bab825;line-height:1.6em;text-align:center;}
+.video_cont .videoimg a{color:#fff;}
+.video_cont .videotext{width:120px;}
+.video_cont .videotext h4{font-weight:bold;border-bottom:1px dashed #e7d7d7;padding-bottom:5px;margin-bottom:5px;}
+.video_cont .videotext h4 img{margin-right:5px;}
+.video_cont .videotext p a{color:#808080;}
+
+.newsright_cont{width:420px;border:1px solid #eee;margin:20px 0 0 0;}
+.newscont_title{background:url(http://www.cdpsn.org.cn/_images/allbgs_ny.jpg) no-repeat 0 -166px;font-size:14px;font-weight:bold;color:#a89e3d;margin:0 5px;padding:0 10px 0 54px;height:32px;line-height:32px;}
+.newscont_list{padding:10px 0 17px 12px;}
+.newscont_list ul li{clear:both;background:url(http://www.cdpsn.org.cn/_images/bg_icon.png) no-repeat 0 -55px;padding:2px 0 2px 8px;width:400px;color:#a59e34;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+.newsright .sgepic{background:url(http://www.cdpsn.org.cn/_images/allbgs_ny.jpg) no-repeat -350px -470px;width:265px;height:140px;margin-top:12px;}
+.newsright .sgepic ul li{width:130px;height:70px;float:left;}
+.newsright .sgepic ul li a{width:130px;height:70px;display:block;text-indent:-99999px;}
+
+.ad950x100{width:950px;height:100px;background:#ccc;line-height:100px;text-align:center;margin-top:12px;}
+.ad265x100{width:265px;height:100px;background:#ccc;line-height:100px;text-align:center;margin-top:12px;}
+.ad310x100{width:310px;height:100px;background:#ccc;line-height:100px;text-align:center;margin-top:20px;}
+
+/*juanzhu*/
+.love_box{background:url(http://www.cdpsn.org.cn/_images/bg_lovebanner.png) no-repeat;width:950px;height:320px;margin-top:8px;}
+.love_banner{width:655px;height:260px;overflow:hidden;margin:20px 0 0 20px;display:inline;}
+.love_info{width:230px;margin:30px 20px 0 0;display:inline;}
+.love_info h3{border-bottom:1px dashed #e1dac7;padding:15px 0;margin:0 0 1px 0;}
+.love_info p{border-top:1px dashed #e1dac7;padding:10px 0;line-height:1.6em;}
+.love_info h3,.love_info p{font-size:18px;font-family:Microsoft Yahei,微软雅黑,黑体;}
+.love_info h3 span{font-size:30px;font-weight:bold;color:#953100;}
+.love_info p span{font-weight:bold;color:#953100;}
+
+.loveway{width:240px;border:1px solid #e7e7e7;margin-right:9px;}
+.loveway_title{background:url(http://www.cdpsn.org.cn/_images/allbgs_ny.jpg) no-repeat 0 -225px;font-size:14px;font-weight:bold;padding:9px 0 20px 32px;}
+.loveway ul{margin:5px;}
+.loveway ul li{clear:both;padding:0 0 35px 80px;}
+.loveway .jzway{background:url(http://www.cdpsn.org.cn/_images/allbgs_ny.jpg) no-repeat 1px -290px;border-bottom:1px dashed #e7e7e7;}
+.loveway .slway{background:url(http://www.cdpsn.org.cn/_images/allbgs_ny.jpg) no-repeat -260px -280px;}
+.loveway .jzway h5,.loveway .slway h5{padding:8px 0 5px 0;font-size:16px;font-family:Microsoft Yahei,微软雅黑,黑体;}
+.loveway .jzway p,.loveway .slway p{padding:0 0 8px 0;line-height:1.7em;}
+.btnway{background:url(http://www.cdpsn.org.cn/_images/icon_ny.png) no-repeat;width:78px;height:20px;}
+.btnway a{display:block;width:78px;height:20px;text-indent:-9999px;}
+
+.lovenews{width:425px;border:1px solid #e7e7e7;}
+.lovenews_title{background:url(http://www.cdpsn.org.cn/_images/allbgs_ny.jpg) no-repeat 0 -390px;font-size:14px;font-weight:bold;padding:6px 6px 9px 6px;margin:5px;}
+.lovenews h3{font-size:16px;font-family:Microsoft Yahei,微软雅黑,黑体;font-weight:bold;padding:10px;}
+.lovenews p{text-indent:2.4em;line-height:1.6em;padding:0 10px;}
+.lovenews ul{padding:8px 0 0 0;margin:10px;border-top:1px dashed #e7e7e7;}
+.lovenews ul li{background:url(http://www.cdpsn.org.cn/_images/icon_ny.png) no-repeat 0 -150px;padding:2px 0 3px 12px;width:400px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+.guide{width:265px;border:1px solid #e7e7e7;}
+.guide_title{background:url(http://www.cdpsn.org.cn/_images/allbgs_qa.jpg) no-repeat -1px -81px;font-size:14px;font-weight:bold;padding:10px 10px 6px 10px;}
+.guide ul{width:243px;background:url(http://www.cdpsn.org.cn/_images/allbgs_ny.jpg) no-repeat -700px -170px;margin:0 0 12px 10px;}
+.guide ul li{height:48px;line-height:48px;font-size:16px;font-family:Microsoft Yahei,微软雅黑,黑体;color:#953100;padding:0 0 0 100px;}
+.guide ul li a{color:#953100;}
+
+/*service*/
+.service_search{background:url(http://www.cdpsn.org.cn/_images/bg_service.png) no-repeat;width:630px;height:90px;margin:5px 0 10px 0;text-align:center;}
+.service_search table{margin:6px auto 0 auto;}
+.service_search td{font-size:14px;font-weight:bold;}
+.service_search select{vertical-align:middle;color:#808080;}
+.service_newslist{width:630px;}
+.service_newslist_title{clear:both;background:url(http://www.cdpsn.org.cn/_images/allbgs_ny.jpg) no-repeat 0 -394px;height:32px;margin:6px 0;}
+.educate{background:url(http://www.cdpsn.org.cn/_images/allbgs_ny.jpg) no-repeat 0 -460px;width:120px;height:32px;}
+.job{background:url(http://www.cdpsn.org.cn/_images/allbgs_ny.jpg) no-repeat 0 -500px;width:120px;height:32px;}
+.healthy{background:url(http://www.cdpsn.org.cn/_images/allbgs_ny.jpg) no-repeat 0 -540px;width:120px;height:32px;}
+.interest{background:url(http://www.cdpsn.org.cn/_images/allbgs_ny.jpg) no-repeat 0 -580px;width:120px;height:32px;}
+.service_newslist_title .more{background:url(http://www.cdpsn.org.cn/_images/icon_ny.png) no-repeat 0 -35px;width:60px;height:22px;}
+.service_newslist_title .more a{display:block;width:60px;height:17px;text-indent:-99999px;margin-top:5px;}
+.service_pic{width:220px;height:140px;overflow:hidden;border:3px solid #e7e7e7;}
+.service_pic img{height:140px;}
+.service_newslist ul{width:185px;float:left;border-right:1px dashed #e7e7e7;margin-left:10px;}
+.service_newslist ul li{background:url(http://www.cdpsn.org.cn/_images/bg_icon.png) no-repeat 0 -56px;padding:3px 0 2px 10px;width:165px!important;width:175px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+.service_qatop{background:url(http://www.cdpsn.org.cn/_images/allbgs_qa.jpg) no-repeat 0 -200px;border:1px solid #e7e7e7;padding:8px 10px 6px 10px;}
+.service_qatop_title{font-size:14px;font-weight:bold;}
+.service_qatop ul{padding:4px 0 0 0;}
+.service_qatop ul li{background:url(http://www.cdpsn.org.cn/_images/bg_icon.png) no-repeat 0 -53px;padding:2px 0 2px 10px;color:#bdb723;width:275px!important;width:285px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+
+/*job*/
+#search_job{background:url(http://www.cdpsn.org.cn/_images/allbgs_ny.jpg) no-repeat 0 -50px;height:100px;margin:5px 0 10px 0;}
+#search_job table{margin:10px 0 0 20px;}
+#search_job td{font-weight:bold;color:#fff;}
+#search_job select{width:240px;}
+#search_job .select_area{background: url(http://www.cdpsn.org.cn/_images/btn_region.png) no-repeat;background-repeat: no-repeat;height: 32px;width: 95px;outline:none;border: 0px none #F00;font-weight:bold;}
+
+.jobtab_top{background:#f2f2f2;border:1px solid #e5e5e5;padding:5px 0 3px 0;margin:6px 10px 0 10px;}
+.jobtab_top ul li{float:left;font-weight:bold;}
+.zwmc{width:180px;}
+.gsmc{width:262px;text-align:center;}
+.addr{width:80px;text-align:center;}
+.time{width:80px;text-align:center;}
+.joblist_tab{margin:10px 10px 15px 10px;width:608px;border-bottom:1px dashed #aaa;}
+.joblist_tab th{font-size:14px;font-weight:normal;padding:8px 0 5px 0;}
+.joblist_tab th a{color:#115b98;text-decoration:underline;}
+.joblist_tab td{padding:8px 0;}
+.joblist_tab .desc{color:#808080;border-top:1px dashed #e7e7e7;line-height:1.6em;}
+.joblist_tab .date{font-size:12px;width:80px;text-align:center;}
+
+.cyfz_box,.jobsearch_rightbox{width:310px;border:1px solid #c8c8c8;}
+.cyfz_title{background:url(http://www.cdpsn.org.cn/_images/allbgs_ny.jpg) no-repeat -100px 0;padding:0 10px;}
+.cyfz_box h5{font-size:14px;font-weight:bold;color:#b2b436;margin:0 0 4px 0;padding:0 0 3px 0;border-bottom:1px dashed #e7e7e7;}
+.cyfz_box ul{padding:5px 10px;}
+.cyfz_box ul li{clear:both;padding:10px 0;}
+.cyfz_cont{padding-left:10px;display:inline;}
+.cyfz_cont a{background:url(http://www.cdpsn.org.cn/_images/bg_icon.png) no-repeat 0 -55px;padding:1px 0 1px 8px;width:160px!important;width:170px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cyfz_img{width:100px;height:100px;overflow:hidden;border:1px solid #ebebeb;margin-top:2px}
+.cyfz_img img{height:100px;}
+
+.cyfzlist_title{clear:both;background:#f6fafd url(http://www.cdpsn.org.cn/_images/icon_ny.png) no-repeat 10px -173px;border:1px solid #ecf1f5;font-size:14px;font-weight:bold;height:27px;line-height:27px;padding:0 10px 0 26px;margin:15px;}
+.cyfzlist_pic{width:150px;height:150px;overflow:hidden;border:1px solid #ebebeb;margin-right:10px;}
+.cyfzlist{margin:0 15px 10px 15px;}
+.cyfzlist ul{width:180px;}
+.cyfzlist ul li{background:url(http://www.cdpsn.org.cn/_images/bg_icon.png) no-repeat 0 -55px;padding:4px 0 3px 8px;width:160px!important;width:170px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cyfzlist_pic img{height:150px;}
+.cyfzlist_info{width:245px;border-right:1px dashed #c8c8c8;}
+.cyfzlist_info h6{font-size:14px;font-weight:bold;color:#115b98;margin-bottom:8px;}
+.cyfzlist_info p{font-size:13px;color:#808080;line-height:1.7em;margin-bottom:6px;}
+.cyfzlist_info h6 a,.cyfzlist_info .links a{color:#115b98;}
+.cyfzlist_info .links a{font-size:12px;text-decoration:underline;}
+
+.jobsearch_title{background:url(http://www.cdpsn.org.cn/_images/allbgs_ny.jpg) no-repeat 0 -630px;height:26px;line-height:26px;border-bottom:1px solid #e7e7e7;font-size:14px;color:#fff;font-weight:bold;padding:0 10px;}
+.jobsearch_rightbox table{margin:8px auto;}
+.jobsearch_rightbox select{width:210px;}
+
+
+/*ware*/
+.ware_left{width:640px;background:#ffffff;margin-top:5px;}
+.ware_box{background:#f7f7f7 url(http://www.cdpsn.org.cn/_images/bgline.png) repeat-x top;border:solid #ccc;border-width:0 1px 1px 0;margin:0 0 15px 0;height:385px;}
+.ware_nav{width:160px;height:385px;}
+.ware_nav ul li{background:url(http://www.cdpsn.org.cn/_images/bg_warenav.png) no-repeat 0 -70px;width:138px!important;width:160px;height:43px!important;height:55px;padding:12px 0 0 22px;cursor:hand;cursor:pointer;}
+.ware_nav ul li span{font-size:14px;font-weight:bold;}
+.ware_nav ul li .g{color:#A2A139;}
+.ware_left .hover .g{color:#fff;}
+.ware_left .hover{background:url(http://www.cdpsn.org.cn/_images/bg_warenav.png) no-repeat 0 0;height:55px;color:#fff;}
+.ware_contx{width:460px;}
+.ware_cont ul{padding:10px 0 0 0;}
+.ware_cont ul li{float:left;width:138px;padding:15px 6px 0 8px;}
+.ware_cont ul li .pic{width:130px;height:130px;overflow:hidden;border:1px solid #cecece;margin:0 auto;}
+.ware_cont ul li img{height:130px;}
+.ware_cont ul li p{background:#e6e6e6;width:130px;line-height:24px;border:1px solid #e6e6e6;text-align:center;font-weight:bold;margin:0 auto;}
+
+
+.ware_search{border:1px solid #d9d9d9;margin-top:18px;}
+.ware_search_title{background:url(http://www.cdpsn.org.cn/_images/allbgs_ny.jpg) no-repeat 0 -665px;height:35px;line-height:35px;padding:0 0 0 38px;font-size:14px;font-weight:bold;}
+.ware_search_box{padding:15px;}
+.ware_search_cont,.ware_dealer{font-weight:bold;}
+.ware_search_cont select{width:215px;}
+.ware_keyword{padding:12px 0;line-height:2.0em;}
+.ware_keyword a{color:#6d6903;padding:0 12px 0 0;}
+.ware_keyword a.all{font-weight:bold;color:#e85200;}
+.ware_dealer select{width:130px;}
+
+/*aboutus*/
+#main {
+    margin: 10px 0 5px;
+    overflow: hidden;
+    clear: both;
+    zoom: 1;
+}
+/*general stye*/
+div.block {
+    border: 1px solid #a9d5a2;
+    margin-bottom: 6px;
+    overflow: hidden;
+    zoom: 1;
+    background: url(http://www.cdpsn.org.cn/_images/sprite_2.png) no-repeat right -50px;
+    position: relative;
+}
+
+div.block .hd {
+    line-height: 26px;
+    border-bottom: 1px solid #a9d5a2;
+    color: #0e6f00;
+    font-size: 116.67%;
+    font-weight: bold;
+    padding-left: 35px;
+    background: url(http://www.cdpsn.org.cn/_images/sprite_icons.gif) no-repeat;
+}
+
+div.block .hd a {
+    color: #0e6f00;
+}
+
+div.block a.more {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    color: #949494;
+}
+/*
+ * news view detail
+ */
+.article {
+    padding: 10px 20px 10px;
+}
+
+.article .meta {
+    margin: 5px 5px 15px;
+    color: #888888;
+    text-align: center;
+}
+
+.article h1 {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.article h2 {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+div.block .article h3 {
+    padding: 0;
+    border-bottom: none;
+    background: none;
+    color: #333333;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.article p {
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 24px;
+    text-indent: 2em;
+}
+
+.article .center {
+    text-align: center;
+}
+
+/*static*/
+.about_title{background:url(http://www.cdpsn.org.cn/_images/allbgs_ny.jpg) no-repeat -80px 0;padding:0 10px 0 10px;}
+
+ul.aboutmenu {
+    padding: 2px 0;
+}
+ul.aboutmenu li {
+    height: 30px;
+    line-height: 30px;
+}
+ul.aboutmenu li a {
+    background: url(http://www.cdpsn.org.cn/_images/plat_bullet_square.png) no-repeat scroll 27px 12px transparent;
+    
+    display: block;
+    font-size: 116.67%;
+    padding-left: 40px;
+}
+ul.aboutmenu li.on {
+    background-color: #E1F4D6;
+}
+
+.about_left {width:210px;margin-top:5px;padding:0 0 20px 0;border:1px solid #c8c8c8;}
+.about_right {
+     width:730px;margin-top:5px;border:1px solid #c8c8c8;
+    min-height:263px;    /*�߶���Сֵ����Ϊ��100px*/
+    height:auto !important; /*����FF,IE7Ҳ֧�� !important��ǩ*/
+    height:263px; /*����ie6*/
+    overflow:visible;}
+.about_succeed {width:960px;margin-top:5px;padding:0 0 20px 0;border:1px solid #c8c8c8;}    
+
+
+/*love-list*/
+.offer_center_left_nav{width:630px;height:106px;margin-bottom:4px;}
+
+.offer_center_left_nav_top{width:630px;height:35px;background:url(http://www.cdpsn.org.cn/_images/offer_center_left_nav_top.jpg) 0 bottom repeat-x;}
+
+.offer_center_left_nav_top a{display:block;width:118px;height:34px;float:left;margin-right:2px;background:url(http://www.cdpsn.org.cn/_images/offer_center_left_nav_top_a.jpg) no-repeat;font-size:16px;line-height:40px;text-align:center;font-weight:bold;color:#000;}
+
+.offer_center_left_nav_top a:hover{color:#FFF;background:url(http://www.cdpsn.org.cn/_images/offer_center_left_nav_top_a_hover.jpg) no-repeat;}
+
+.offer_center_left_nav_top .left_nav_top01{background:url(http://www.cdpsn.org.cn/_images/offer_center_left_nav_top_a_hover.jpg) no-repeat;color:#FFF;}
+
+
+
+.offer_center_left_nav_down{width:617px;height:28px;border:1px solid #35BD39;border-top:none;background:#EAE8E9;padding-left:12px;font-size:14px;padding-top:4px;}
+
+.offer_center_left_nav_down_01{width:120px;height:22px;border:none;border:1px solid #A2D88C;margin-left:5px;margin-right:36px;}
+
+.offer_center_left_nav_down_02{width:58px;height:22px;border:none;border:1px solid #A2D88C;margin-left:5px;}
+
+.offer_center_left_nav_down_03{width:80px;height:22px;border:none;border:1px solid #A2D88C;margin-left:2px;margin-right:10px;}
+
+.offer_center_left_nav_down_04{width:127px;height:22px;border:none;border:1px solid #A2D88C;margin-left:2px;margin-right:10px;}
+
+.offer_center_left_nav_down_search{width:93px;height:24px;border:none;border:1px solid #A2D88C;vertical-align:middle;margin-left:5px;line-height:24px;padding-left:8px;pading-right:5px;overflow:hidden;margin-top:-2px;}
+
+.offer_center_left_nav_down_botton{width:44px;height:29px;border:none;}
+
+.offer_center_left_nav_down_botton img{border:none;margin:0; vertical-align:middle;margin-top:-4px;margin-left:0px;}
+
+
+.offer_center_left_message{width:600px;background:url(http://www.cdpsn.org.cn/_images/interpret_dream_news_main_left_list_bg.jpg) 0 bottom repeat-x;padding-bottom:10px;overflow:hidden;margin-top:10px; margin-left:10px}
+
+.offer_center_left_message_no_pic{width:73px;height:76px;float:left;margin-right:19px;}
+
+.offer_center_left_message_tittle{height:24px;width:310px;overflow:hidden;float:left;}
+
+.offer_center_left_message_tittle h3{margin:0;height:24px;line-height:24px;margin-bottom:17px;}
+
+.offer_center_left_message_tittle h3 a{color:#000;font-size:14px;}
+
+.offer_center_left_message_tittle p{height:24px;color:#000;font-size:14px;margin:0;line-height:24px;}
+
+
+.offer_center_left_message_city{width:80px;height:76px;float:left;line-height:24px;font-size:14px;}
+
+.offer_center_left_message_detail{height:0px;width:560px;position:relative;top:-42px;left:92px;font-size:12px;}
+
+/*love-detail*/
+.love_left_box_con{ width:630px; background-color:#fff;}
+.love_left_box_con .name h2{ font-size:14px; text-align:center; line-height:78px}
+.love_left_box_con .name h2 span{color:#AF2524}
+
+.love_pic{ float:left; width:200px; height:150px; display:inline; margin-left:23px}
+.love_pic img{ border:1px solid #828282}
+.love_nr{ float:left; display:inline; margin-left:13px; width:380px}
+.love_nr ul{ color:#4c4c4c;}
+.love_nr ul li{ width:175px; float:left; display:inline; overflow:hidden; padding-left:15px; margin-top:14px}
+.love_nr ul li.buchong{ background:none; font-size:14px; width:330px}
+.love_nr ul li.buchong h2{ font-size:14px; color:#1a1a1a}
+.love_nr ul li.buchong span{ padding-left:30px; padding-top:13px; display:block}
+
+DIV.pagination {
+    TEXT-ALIGN: right; PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 10px; PADDING-TOP: 5px
+}
+DIV.pagination A {
+    MARGIN: 0px 2px; COLOR: #00a800
+}
+
+/*cyfz*/
+ul.spt_orgs {
+    padding: 5px 0 0 15px;
+}
+
+ul.spt_orgs li {
+    margin-bottom: 5px;
+    padding: 10px 0;
+    overflow: auto;
+    zoom: 1;
+}
+
+ul.spt_orgs li.even {
+    background-color: #edeced;
+}
+
+ul.spt_orgs img {
+    float: left;
+    padding: 1px;
+    border: 1px solid #dadada;
+}
+
+ul.spt_orgs h4 {
+    color: #1d6a02;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+ul.spt_orgs h4,ul.spt_orgs p {
+    padding-left: 120px;
+}
+
+ul.spt_orgs p {
+    line-height: 22px;
+    text-indent: 2em;
+}
+
+ul.org2 li {
+    border-bottom: 1px dotted #333333;
+}
+
+div.org_intro {
+    padding: 20px 20px 20px 40px;
+    position: relative;
+}
+
+div.org_intro p.pic {
+    position: absolute;
+    width: 280px;
+    padding: 30px 20px 10px;
+    top: 15px;
+    right: 0;
+    background-color: #FFFFFF;
+}
+
+div.org_intro ul.item {
+    zoom: 1
+}
+
+div.org_intro ul.item li {
+    padding: 10px 0;
+    border-bottom: 1px dotted #333333;
+    clear: both;
+    overflow: hidden;
+}
+
+div.org_intro ul.item li label {
+    font-weight: bold;
+}
+
+div.org_intro ul.item li span {
+    width: 130px;
+    float: left;
+}
+
+div.org_intro ul.item li.detail {
+    height: auto;
+}
+
+div.org_intro li.detail p {
+    line-height: 24px;
+    text-indent: 2em;
+}
+
+div.org_intro ul.list li {
+    padding: 2px 0;
+    border-bottom: none;
+}
+
+ul.picshow {
+    padding: 0px;
+    clear: both;
+}
+
+ul.picshow li {
+    margin: 0 24px;
+    display: inline;
+    float: left;
+}
+
+ul.picshow li img {
+    border: 1px solid #dbdbdb;
+}
+
+ul.picshow li a {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+ul.prodshow {
+    padding: 20px 10px 20px 10px;
+    clear: both;
+    overflow: auto;
+    zoom: 1;
+}
+
+ul.prodshow li {
+    margin: 0 24px;
+    display: inline;
+    float: left;
+}
+
+ul.prodshow li img {
+    padding: 2px 0 8px;
+    border: 1px solid #c3c3c3;
+}
+
+ul.prodshow li a {
+    display: block;
+    margin-top: 5px;
+    text-align: center;
+    line-height: 16px;
+}
+
+div.pic_slide {
+    padding: 50px 10px 20px;
+    margin: 0 50px;
+    border-bottom: 1px dotted #333333;
+    position: relative;
+    text-align: center;
+    zoom: 1;
+}
+
+div.pic_slide img {
+    padding: 2px;
+    border: 1px solid #dbdbdb;
+}
+
+div.pic_slide a {
+    position: absolute;
+    top: 280px;
+    background: url(http://www.cdpsn.org.cn/_images/sprite_0.png) no-repeat;
+    width: 25px;
+    height: 44px;
+    overflow: hidden;
+    text-indent: -2000em;
+}
+
+div.pic_slide a.prev {
+    background-position: -196px -532px;
+    left: 30px;
+}
+
+div.pic_slide a.next {
+    background-position: -246px -530px;
+    right: 30px;
+}
+
+ul.prod_intro {
+    margin: 10px 50px 50px;
+    zoom: 1;
+}
+
+ul.prod_intro li {
+    padding: 6px 0;
+    clear: both;
+    overflow: hidden;
+    padding-left: 5px;
+}
+
+ul.prod_intro li.odd {
+    background-color: #edeced;
+}
+
+ul.prod_intro li label {
+    font-weight: bold;
+    float: left;
+}
+
+ul.prod_intro li span {
+    float: left;
+    width: 520px;
+    overflow: hidden;
+}
+
+ul.prodList {
+    padding: 30px 20px 20px;
+    float: left;
+}
+
+ul.prodList li.list-item {
+    border-bottom: 1px solid #E5E5E5;
+    padding: 15px 0 15px 110px;
+    overflow: hidden;
+    width: 500px;
+    float: left;
+    position: relative;
+}
+
+ul.prodList li h3 {
+    width: 200px;
+    height: 40px;
+    background: none;
+    margin-bottom: 24px;
+    font-size: 14px;
+}
+
+ul.prodList li h3 a {
+    color: #0C76B3;
+}
+
+ul.prodList li em {
+    color: #FF0000;
+}
+
+ul.prodList li div.photo {
+    border: 1px solid #D9D9D9;
+    height: 80px;
+    left: 10px;
+    overflow: hidden;
+    position: absolute;
+    top: 15px;
+    width: 80px;
+}
+
+ul.prodList li p.seller {
+    height: 20px;
+    overflow: hidden;
+}
+
+ul.prodList li .attribute {
+    position: absolute;
+    right: 0px;
+    top: 15px;
+}
+
+ul.prodList li .attribute li {
+    float: right;
+}
+
+ul.prodList li .attribute em {
+    font-weight: bold;
+    color: #FF0000;
+}
+
+ul.prodList li .attribute li.price {
+    width: 80px;
+    text-align: right;
+}
+
+ul.prodList li .attribute li.price em {
+    color: #FF2900;
+    font: bold 16px Arial;
+    padding-left: 16px;
+    background: url(../images/sprite_icons.gif) no-repeat -2px -1078px;
+}
+
+ul.prodList li .attribute li.place {
+    width: 150px;
+    text-align: center;
+}
+
+ul.prodList li .attribute li.delivery {
+    width: 80px;
+}
+
+ul.prodList li .attribute li.delivery span {
+    margin-bottom: 3px;
+    display: block;
+}
+
+/*form feedback*/
+div.feedback {
+    background-color: #FFEDD7;
+    border: 1px solid #FFA45B;
+    margin: 15px 20px 0;
+    padding: 10px;
+}
+div.feedback p {
+    line-height: 18px;
+    text-indent: 2em;
+    margin-bottom: 0px;
+      font-size: 14px;
+}
+div.feedback p.inscribe {
+    text-align: right;
+}
+form.feedback {
+    padding-left: 20px;
+}
+form.feedback ul li {
+    margin: 10px 0;
+}
+form.feedback ul li.exception {
+    padding-left: 95px;
+}
+form.feedback textarea {
+    border: 1px solid #AEAEAE;
+    padding: 3px;
+}
+form.formA {
+    padding-top: 10px;
+}
+
+form.formA ul li label {
+    float: left;
+    padding-right: 5px;
+    text-align: right;
+    width: 90px;
+}
+form.formA ul li label.label {
+    float: none;
+    margin-right: 10px;
+    padding: 0;
+    width: auto;
+}
+form.formA ul li.action {
+    border: medium none;
+    margin-top: 10px;
+    padding-left: 100px;
+}
+form.formA ul li span.usertype {
+    margin-right: 100px;
+}
+form.formA ul li.action input {
+    margin: 0 10px;
+}
+form.formA ul li label.error {
+    background: url("../images/unchecked.gif") no-repeat scroll 0 2px transparent;
+    color: #FF0000;
+    float: none;
+    margin-left: 5px;
+    padding: 2px 5px 2px 20px;
+}
+form.formA ul li label.success {
+    background: url("../images/checked.gif") no-repeat scroll 0 2px transparent;
+}
+form.formA input {
+    vertical-align: middle;
+}
+form.formA input.text {
+    border: 1px solid #AEAEAE;
+    padding: 3px;
+}
+form.formA select {
+    padding: 3px 2px;
+}
+form.formA div.textarea {
+    float: left;
+    width: 500px;
+}
+form.formA div.textarea textarea {
+    display: block;
+}
+form.formA label.hint {
+    color: #888888;
+    display: block;
+    float: none;
+    font-size: 12px;
+    padding: 8px 0;
+    text-align: left;
+    width: auto;
+}
+form.formA .button {
+    background: url("../images/sprite_user.png") no-repeat scroll -400px 0 transparent;
+    border: medium none;
+    color: #FFFFFF;
+    height: 24px;
+    line-height: 24px;
+    width: 72px;
+}
+form.formA .required {
+    color: #FB1E1E;
+}
+
+.reg_succeed {
+    padding: 20px 90px;
+    text-align: center;
+}
+.reg_succeed p.msg {
+    background: url("../images/sprite_user.png") no-repeat scroll -400px -110px transparent;
+    font-size: 133.3%;
+    font-weight: bold;
+    margin: 20px 100px 0;
+    padding: 25px 0;
+}
+.reg_succeed p.hint {
+    border-top: 1px dotted #689667;
+    font-size: 116.67%;
+    margin: 5px 0 30px;
+    padding-top: 30px;
+}
+
+/* games */
+div.game .down {
+    width: 967px;
+    height: 225px;
+    background: url(http://www.cdpsn.org.cn/_images/games.png) no-repeat 0 0;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+div.game .down a {
+    display: block;
+    width: 178px;
+    height: 28px;
+    margin: 91px 0 5px 56px;
+    color: #e8fccc;
+    padding-top: 49px;
+    padding-left: 40px;
+}
+
+div.game .down a:hover {
+    text-decoration: none;
+}
+
+div.game .down p {
+    padding-left: 56px;
+    color: #666666;
+}
+
+div.game .intro {
+    overflow: auto;
+    padding-right: 260px;
+    zoom: 1;
+    background: url(http://www.cdpsn.org.cn/_images/games.png) no-repeat right -246px;
+}
+
+div.game .intro h2 {
+    background: url(http://www.cdpsn.org.cn/_images/games.png) no-repeat 0 -225px;
+    height: 484px;
+    height: 24px;
+    *padding-top: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1d6a02;
+    padding-left: 38px;
+    margin-bottom: 10px;
+}
+
+div.game .intro p {
+    text-indent: 2em;
+    font-size: 116.67%;
+    float: left;
+    line-height: 24px;
+    background-color: #FFFFFF;
+}
+
+div.game ul.list {
+    padding: 30px 0;
+    overflow: auto;
+    zoom: 1;
+}
+
+div.game ul.list li {
+    float: left;
+    width: 275px;
+    text-align: center;
+    padding: 0 20px;
+    display: inline;
+    border-right: 1px dotted #666666;
+}
+
+div.game ul.list li.ddz {
+    border-right: none;
+}
+
+div.game ul.list li h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #1d6a02;
+}
+
+div.game ul.list li p {
+    text-indent: 2em;
+    text-align: left;
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+div.game ul.list li.xq h3 {
+    background: url(http://www.cdpsn.org.cn/_images/games.png) no-repeat 20px -325px;
+}
+
+div.game ul.list li.wzq h3 {
+    background: url(http://www.cdpsn.org.cn/_images/games.png) no-repeat 20px -348px;
+}
+
+div.game ul.list li.ddz h3 {
+    background: url(http://www.cdpsn.org.cn/_images/games.png) no-repeat 20px -371px;
+}
+
+#main_right {
+    width: 680px;
+    float: left;
+    overflow: hidden;
+}
+
+ul.myinfo {
+    padding: 20px 20px 10px;
+    zoom: 1;
+    overflow: hidden;
+}
+
+ul.myinfo li {
+    float: left;
+    display: inline;
+    width: 140px;
+    height: 25px;
+}
+
+ul.myinfo li a {
+    color: #ff0000;
+}
+
+
+
+/**policy**/
+.policy_query {
+    width: 960px;
+    height: 56px;
+    background: url(http://www.cdpsn.org.cn/_images/policy_query.png) no-repeat 0 0;
+}
+
+.policy_query h3,.policy_query p {
+    float: left;
+    width: 140px;
+    text-indent: -2000em;
+}
+
+.policy_query ul {
+    float: left;
+    width: 370px;
+    padding: 0 0px 0 20px;
+    height: 48px;
+    padding-top: 5px;
+}
+
+.policy_query ul li {
+    float: left;
+    width: 120px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.policy_query ul li a {
+    font-weight: bold;
+}
+
+.policy_query ul li a:hover {
+    background-color: #b7b7b7;
+    color: #333333;
+    text-decoration: none;
+}
+
+.policy_query a.special_query {
+    float: left;
+    width: 280px;
+    height: 53px;
+    text-indent: -2000em;
+}
+
+.policy_list_left{width:328px;border:1px solid #eee;margin:20px 0 0 0;}
+.policy_list_right{border:1px solid #eee;margin:20px 0 0 0;}
+
+.policycont_list{padding:10px 0 17px 12px;}
+.policycont_list ul li{clear:both;background:url(http://www.cdpsn.org.cn/_images/bg_icon.png) no-repeat 0 -55px;padding:2px 0 2px 8px;color:#a59e34;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+
+.policy_left{border-bottom:1px dashed #e7e7e7;margin:8px 5px 1px 5px;padding:0 0 8px 8px;font-size:14px;font-weight:bold;}
+.policy_left .r a{font-size:12px;font-weight:normal;color:#808080;}
+
+.policy{border:1px solid #c8c8c8;}
+.policy_title{background:url(http://www.cdpsn.org.cn/_images/allbgs_ny.jpg) no-repeat -60px 0px;padding:0 10px 0 10px;}
+.policy ul{padding:2px 10px;}
+.policy ul li{clear:both;border-bottom:1px dotted #ccc;padding:5px 0;}
+.policy ul li h4{font-weight:bold;margin-bottom:6px;}
+.policy ul li .more,.topnews p .more,.lovenews p .more{color:#fe6000;font-family:宋体;}
+
+
+/**����ￄ1�7**/
+.fuju-table {
+    width: 600px;
+    margin: 0px 10px;
+    font-size: 14px;
+}
+
+.fuju-table th {
+    padding: 10px 10px 10px 20px;
+    border-bottom: 1px dotted #000000;
+    font-weight: bold;
+}
+
+.fuju-table td {
+    padding: 5px;
+}
+
+.fuju-table tr.even {
+    background-color: #edeced;
+}
+/* 右上角图标 */
+.rightico{float:right;margin:4px 0 0 0;}.rightico a{background:url(http://www.cdpsn.org.cn/_images/rightico.gif) no-repeat 0 0;width:292px;height:68px;display:block;}
+.homealoneday{float:right;margin:12px 5px 0 0;}.homealoneday a{background:url(http://www.cdpsn.org.cn/_images/baike_online.jpg) no-repeat 0px 0;width:218px;height:36px;display:block;}
+
+/* 远程教育视频 */
+ul.videolist li{float:left;width:220px;height:230px;}
+.videocover{border:1px solid #ccc;width:200px;}.videocover img{width:196px;height:150px;padding:2px;background:#fff;}ul.videolist p{width:200px;margin:5px 0;}
+.video h3{font-size:16px;text-align:center;background:url(http://www.cdpsn.org.cn/_images/videotitle.png) repeat-x;height:54px;line-height:54px;border:1px solid #e1e1e1;font-weight:bold;padding:0 20px;}.fr{float:right;font-size:12px;font-weight:normal;}
+.vshow{width:685px;margin:20px auto;}.vt{width:100%;margin-top:5px;padding:0 0 20px 0;border:1px solid #c8c8c8;}
+.vt_title{background:url(http://www.cdpsn.org.cn/_images/vtitle.png) repeat-x;height:27px;line-height:27px;padding:0 10px;}ul.vtcont{padding:10px;}ul.vtcont li{width:31%;float:left;margin:5px 0;}.clear{clear:both;}.vts{padding:10px;line-height:24px;}
+
+/* 首页就业修改 */
+.cjjl{float:right;margin:-12px -14px 0 0;}.cjjl a{background:url(http://www.cdpsn.org.cn/_images/i_jobimg.jpg) no-repeat -195px -40px;width:177px;height:46px;display:block;}
+.jobarea{float:left;width:595px;}.cycf{float:right;width:306px;}
+.jobsearch .jbb{background:url(http://www.cdpsn.org.cn/_images/i_jobimg.jpg) no-repeat 0 0;float:left;width:485px;height:39px;display:block;}
+.jobsearch .jbt{float:left;margin:0 0 0 2px;}
+.j_bnt{background:url(http://www.cdpsn.org.cn/_images/i_jobimg.jpg) no-repeat 0 -40px;height:39px;width:104px;border:none; cursor:pointer;}
+.j_ipt{width:440px;background:none;color:#ababab;font-size:14px;height:30px;line-height:30px;border:none;margin:4px 0 0 35px;}
+.jobshow{margin:8px 0 0 0;}
+ul.tabs{background:url(http://www.cdpsn.org.cn/_images/i_jobg.png) repeat-x;border-left:1px solid #d9d9d9;border-right:1px solid #d9d9d9;height:30px;padding:8px 0 0 10px;}
+ul.tabs li{float:left;font-size:14px;height:30px;line-height:30px;margin:0 5px;padding:0 5px;cursor:pointer;}ul.tabs .hover a{background:url(http://www.cdpsn.org.cn/_images/i_jobimg.jpg) no-repeat -106px -40px;width:88px;height:30px;display:block;text-align:center;line-height:30px;color:#fff;margin:1px 0 0 0;font-weight:bold;}ul.tabs li a:hover{text-decoration:none;}
+ul.tabs li.morejob{float:right;}
+ul.tabs li.tbyun{float:right;width:300px;margin:-3px 0 0 0;}ul.tabs li.tbyun a.tby{background:url(http://www.cdpsn.org.cn/_images/tbyun.png) no-repeat;width:147px;height:23px;display:block;text-indent:-9999px;float:left;}ul.tabs li.tbyun a.zhilian{float:left;background:url(http://www.cdpsn.org.cn/_images/zhilian.png) no-repeat;width:89px;height:31px;display:block;text-indent:-9999px;margin:0px 20px 0 0;}
+ul.thc{background:url(http://www.cdpsn.org.cn/_images/thcbg.gif) repeat-x #d9d9d9;height:22px;line-height:22px;margin:5px 0 5px 0;border:1px solid #d9d9d9;padding:0;}
+ul.thc li{float:left;text-align:center;}.w7{width:70%;}.w4{width:40%;}.w3{width:30%;}.w25{width:25%;}.w2{width:20%;}.w15{width:15%}.w1{width:10%}.bc{background:#fafafa;padding:5px 5px;}.bcn{background:#f0f0f0;padding:5px 5px;}
+ul.tdc li{margin:0;*margin:-2px 0 0 0;_margin:-2px 0 0 0;padding:0;height:28px;line-height:28px;}ul.tdc li dt,ul.tdc li dd{float:left;text-align:center;}ul.tdc a,.cy_subtitle a{font-weight:normal;color:#FE8400;}ul.tdc a:hover,.cy_subtitle a:hover{color:#FF8500;}ul.tdc div{float:left;text-align:center;}
+.cftitle{background:#FF9801;height:31px;line-height:31px;padding:0 10px;font-size:14px;color:#fff;font-weight:bold;margin:0 0 5px 0;}.cftitle span{background:url(http://www.cdpsn.org.cn/_images/i_jobico.png) right no-repeat;padding:0 14px 0 0;}.cftitle a,.cftitle a:hover{color:#fff;font-weight:normal;}
+.cy_subtitle{background:#f0f0f0;border:1px solid #d9d9d9;width:142px;margin:4px 0 0 0;height:32px;line-height:32px;font-size:12px;text-align:center;color:#683B12;}
+.cy_comimg{width:140px;margin:0;}.cy_comimg img{border:1px solid #ddd;padding:1px;width:140px;height:127px;}.cy_cominfo{float:right;width:180px;}.cy_cominfo dt a{font-weight:bold;color:#236CB0;}.cy_cominfo a{color:#236CB0;}.cy_cominfo{line-height:20px;}.cyitem{width:289px;}.cfcont{clear:both;padding:10px 0 0 0;*padding:5px 0 0 0;_padding:5px 0 0 0;}.rc-list{margin:5px 0 0 0;}.rc-list li{float:left;margin:0 5px 15px 5px;_margin:0 4px 15px 4px;}
+/* 百科问答修改 */
+.searchword{margin:15px 0 0 0;}
+.searchword .sarea{margin:10px 0 0 0;}.searchword .sinp{float:left;background:url(http://www.cdpsn.org.cn/_images/swdimg.gif) no-repeat 0 0;width:205px;height:30px;}
+.swp{width:198px;height:24px;margin:4px 0 0 4px;background:#fff;border:none;line-height:24px;}
+.searchword .sbnt{
+	float:left;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 1px;
+}.searchword .swb{background:url(http://www.cdpsn.org.cn/_images/swdimg.gif) no-repeat 0 -32px;width:73px;height:30px;border:none; cursor:pointer;}.hotword{float:left;width:66px;font-weight:bold;margin:10px 0 0 0;}ul.hotwordlist{
+	float:left;
+	width:200px;
+	padding:0;
+	margin-top: 10px;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+}ul.hotwordlist li{float:left;width:50px!important;width:60px;border:none;margin:0;padding:0;overflow:hidden;}ul.hotwordlist a{color:#B2673C;}
+.dhd{background:url(http://www.cdpsn.org.cn/_images/swdimg.gif) no-repeat -74px -32px;width:59px;height:90px;float:left;margin:20px 0 0 0;}
+.yhd{background:url(http://www.cdpsn.org.cn/_images/swdimg.gif) no-repeat -134px -32px;width:59px;height:88px;float:left;margin:20px 0 0 0;}
+.dhdlist{float:right;width:204px;}.dotline{
+	border-top:1px dashed #b4b4b4;
+	margin-top: 13px;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+}
+.mt15{margin-top:15px;}
+/* 服务黄页修改 */
+.contbox .title_hy{background:url(http://www.cdpsn.org.cn/_images/bg_contitles.jpg) no-repeat 0 -561px;color:#3E3D03;padding:0 0 0 200px;height:60px;line-height:60px;color:#035DA9;}
+ul.hy_item{padding:5px 0 0 0;}
+ul.hy_item li{float:left;margin:0 4px;}ul.hy_item li a{background:url(http://www.cdpsn.org.cn/_images/index_hy.png) no-repeat;width:175px;height:51px;display:block;}
+ul.hy_item .tjxx a{background-position:0 0;}
+ul.hy_item .qzjy a{background-position:0 -58px;}
+ul.hy_item .fljj a{background-position:0 -118px;}
+ul.hy_item .kfyl a{background-position:0 -178px;}
+ul.hy_item .hljy a{background-position:0 -237px;}
+ul.hy_links{padding:10px 0 0 0;font-size:14px;}
+ul.hy_links li{float:left;margin:0 5px;}ul.hy_links li a{background:url(http://www.cdpsn.org.cn/_images/index_hy.png) no-repeat 0 -294px;width:80px;height:28px;text-align:center;line-height:28px;display:block;}
+ul.hy_links li a:hover{background:url(http://www.cdpsn.org.cn/_images/index_hy.png) no-repeat -88px -294px;width:80px;height:28px;text-align:center;line-height:28px;display:block;color:#fff;text-decoration:none;}
+.hy_color,.hy_color a{color:#045BA8;}
+#ulid a{font-size:14px;}#hylinks{margin:15px 0 0 0;}
+
+/* 爱心捐助修改 */
+.addqzinfo a{float:right;background:url(http://www.cdpsn.org.cn/_images/index_axjz.png) no-repeat 0 -36px;width:151px;height:34px;display:block;}
+.axjz_left{float:left;width:612px;}
+.axjz_right{float:right;width:280px;}
+.axjz_w1{float:left;width:390px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.axjz_w2{float:left;width:110px;margin:0 0 0 10px;}
+.axjz_w3{float:right;width:80px;}
+ul.axjz_new{padding:8px 0 0 0;}ul.axjz_new a:hover{color:#902B01;}
+ul.axjz_new li{background:url(http://www.cdpsn.org.cn/_images/bg_icon.png) no-repeat 6px -55px;padding:3px 0 1px 14px;border-bottom:1px dashed #eaeaea;}
+ul.axjz_new li .hot a{color:#e93900;}
+ul.axjz_tp{margin:10px 0 0 0;} 
+ul.axjz_tp li{float:left;margin:0 8px 0 8px;}
+ul.axjz_tp img{width:82px;height:52px;border:1px solid #cecece;padding:1px;}
+.axjz_tp_txt{width:82px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin:5px 0;text-align:center;}
+.axjz_sbox{background:url(http://www.cdpsn.org.cn/_images/index_axjz.png) no-repeat 0 0;width:522px;height:30px;padding:4px 0 0 5px;float:left;}
+.axjz_inp{width:510px;height:22px;line-height:22px;border:none;color:#B4B4B4;}
+.axjz_bnt{float:left;background:url(http://www.cdpsn.org.cn/_images/index_axjz.png) no-repeat -157px -38px;width:72px;height:30px;border:none;margin:0 0 0 5px; cursor:pointer;}
+.axjz_search{padding:10px 0 0 0;*padding:0;_padding:0;}
+.axjz_class{margin:10px 0 0 0;}
+.axjz_class li{float:left;width:32%;text-align:left;margin:5px 0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+/* 资讯内页修改2013.5.29 */
+.abtxt{font-size:14px;margin:0 0 10px 0;}
+dl.xgxw dt{font-weight:bold;}dl.xgxw dd{background:url(http://www.cdpsn.org.cn/_images/bg_icon.png) no-repeat 0 -52px;padding:5px 0 0 5px;}
+.bdshare{float:right;}
+/* 网站地图修改2013.5.29  */
+dl.sitemap{margin:10px 0 20px 0;padding:0;font-size:14px;border-bottom:1px dashed #e8e8e8;}
+dl.sitemap:after{content:'\20';display:block;height:0;clear:both;}
+* html dl.sitemap{zoom:1;}*:first-child+html dl.sitemap{zoom:1;}
+dl.sitemap dt,dl.sitemap dd{float:left;}dl.sitemap dt{margin:0 15px 5px 0;font-weight:bold;}dl.sitemap dd{margin:0 12px 0 0;}
+/* 辅具修改2013.7.11  */
+ul.fjsearchtab:after,.kfbk_cont:after,.fj_list:after{content:'\20';display:block;height:0;clear:both;}
+* html ul.fjsearchtab,*html .kfbk_cont,*html .fj_list{zoom:1;}*:first-child+html ul.fjsearchtab,*:first-child+html .kfbk_cont,*:first-child+html .fj_list{zoom:1;}
+ul.fjsearchtab li a{float:left;font-size:14px;background:url(../_images/fjimg.jpg) no-repeat 0 0;width:131px;height:35px;display:block;margin:0 5px 0 0;text-align:center;line-height:35px;color:#fff;}ul.fjsearchtab li a:hover{text-decoration:none;}ul.fjsearchtab .hover a{background:url(../_images/fjimg.jpg) no-repeat -133px 0;color:#728206;font-weight:bold;height:37px;}.fjsearchbox{background:url(../_images/fjimg.jpg) no-repeat 0 -80px;height:130px;margin:0 0 10px 0;}
+.fjsearcharea{margin:22px 0 0 80px;}.fjinput{width:696px;height:40px;line-height:40px;padding:0 5px;border:none;}.fjbnt{background:url(../_images/fjimg.jpg) no-repeat -269px 0;width:124px;height:53px;border:none; cursor:pointer;margin:-5px 0 0 20px;}
+.kfbk{margin:15px 0 15px 0;}.kfbk_title{background:url(../_images/fjimg.jpg) no-repeat 0 -220px;height:48px;} 
+.kfbk_cont{border:solid #e4e4e4;border-width:0 1px 1px 1px;padding:3px 5px 10px 5px;}
+.kfbk_cont li{float:left;width:285px;margin:5px 5px 0 5px;background:url(../_images/fjico.gif) left no-repeat;padding:0 0 0 15px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.fjlogin{margin:0 0 10px 0;}.fjlogin_title{background:url(../_images/fjimg.jpg) no-repeat -649px -220px;width:297px;height:48px;}.kfjg_cont,.fjlogin_cont{border:solid #e4e4e4;border-width:0 1px 1px 1px;padding:5px;}
+ul.infoform{margin:15px 0;}ul.infoform li{margin:10px 0;}ul.infoform a{color:#a0a0a0;}
+label{clear:left;float:left;width:80px;height:31px;line-height:22px;*line-height:31px;_line-height:32px;overflow:hidden;text-align:right;cursor:pointer;}
+.textbox{background:#fff;border:1px solid #e4e4e4;width:150px;height:26px;line-height:26px;padding:0 2px;margin:0 0 0 5px;vertical-align:middle;border-radius:5px;}
+.fjlogin_bnt{background:url(../_images/fjimg.jpg) no-repeat 0 -276px;width:104px;height:29px;border:none;cursor:pointer;margin:0 0 0 85px;}ul.infoform a.fjreg{color:#EB5F22;margin:0 20px 0 0;}.fjpic{margin:0 0 10px 0;}.kfjg_title{background:url(../_images/fjimg.jpg) no-repeat -122px -275px;width:297px;height:49px;}
+.kfjg_cont li{width:270px;margin:5px 5px 0 5px;background:url(../_images/fjico.gif) left no-repeat;padding:0 0 0 15px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}ul.fjlogin_dl{padding:0 0 0 15px;}ul.fjlogin_dl li{margin:10px 0;font-size:14px;}ul.fjlogin_dl li a{color:#EB5F22;}
+.fj_list dl{margin:10px 0 20px 0;color:#666;}.fj_list dt{font-size:14px;font-weight:bold;margin:0;}.fj_list dt a{color:#666;text-decoration:underline;}.fj_list dd{margin:0;}.pjf{margin:0 0 3px 0;}.dt_list{float:left;width:220px;}.dt_show{float:right;width:720px;}.dt_list{color:#E45422;}.dt_list li{margin:5px 0;}
+
+/*2014.11.25*/
+.tb1{margin:0 0 20px 0;}
+.tb1 img{margin:5px 0;}
+
+.subNavBox{width:200px;border:solid 1px #e5e3da;padding:1px;background:#fff;margin:auto;}
+.subNav{border-bottom:solid 1px #e5e3da;cursor:pointer;font-weight:bold;font-size:14px;color:#00679A;line-height:28px;padding-left:10px;background:url(../_images/img10.png) left repeat-x;font-size:12px;}
+.subNav:hover{color:#00679A;}
+.currentDd{color:#00679A}
+.currentDt{background:url(../_images/img10.png) left repeat-x;}
+.navContent{display: none;border-bottom:solid 1px #e5e3da;margin:1px 0;background:#F3F5F2;}
+.navContent li a{display:block;width:170px;padding:0 15px;heighr:28px;text-align:left;font-size:12px;line-height:28px;color:#333;background:url(../_images/img11.png) left no-repeat;text-indent:4px;}
+
+ul.topul{float:right;margin:38px 20px 0 0;}
+ul.topul li{float:left;color:#728205;margin:0 5px;}
+ul.topul li a{color:#728205;font-weight:bold;padding:5px;display:block;}
+ul.topul .activ a{background:#A4B624;color:#fff;display:block;border-radius:5px;}
+.area1{background:#eee;margin:60px 0 0 0;padding:30px 20px;}
+.area1 h1{font-size:22px;}
+.area1 p{margin:10px 0;}
+.area1 .bnt{background:#B4CA43;padding:10px 15px;color:#fff;border:none;font-size:14px; cursor:pointer;}
+.area1 dl{margin:10px 0;}
+.area1 dl dt,.area1 dl dd{margin:5px 0;}
+.areahead{background:url(../_images/img13.png) no-repeat;height:212px;margin:25px 0 20px 0;padding:30px 35px;color:#fff;font-size:20px;}
+.areahead p{line-height:30px;}
+.bnt1{background:#B4CA43;padding:8px 10px;color:#fff;border:none;font-size:12px; cursor:pointer;margin:5px 0;}
+.tb2{border:solid #ddd;border-width:1px 0;}
+.tb2 td{padding:10px 0;font-weight:bold;}

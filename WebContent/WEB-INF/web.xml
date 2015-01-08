@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	<display-name>dbutil</display-name>
+	<filter>
+		<filter-name>access filter</filter-name>
+		<filter-class>com.filter.AccessFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>access filter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+	<servlet>
+		<description>Get the progress of updating</description>
+		<display-name>Get the progress of updating</display-name>
+		<servlet-name>UpdateProcessServlet</servlet-name>
+		<servlet-class>servlet.UpdateProcessServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>Get the progress of updating</description>
+		<display-name>Get the progress of updating</display-name>
+		<servlet-name>UpdateProgress</servlet-name>
+		<servlet-class>servlet.UpdateProgress</servlet-class>
+	</servlet>
+
+
+	<servlet-mapping>
+		<servlet-name>UpdateProcessServlet</servlet-name>
+		<url-pattern>/servlet/UpdateProcessServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UpdateProgress</servlet-name>
+		<url-pattern>/servlet/UpdateProgress</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+
+	<error-page>
+		<exception-type>java.lang.Exception</exception-type>
+		<location>/error.jsp</location>
+	</error-page>
+</web-app>
